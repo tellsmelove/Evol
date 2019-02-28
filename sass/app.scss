@@ -1,0 +1,99 @@
+@import './mixin';
+@import './global';
+@import './header';
+@import './footer';
+@import './slideproduct';
+@import './about';
+@import './contact';
+@import './product';
+@import './detaiproduct';
+@import './event';
+@import './blog';
+@import './detaiblog';
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	height: 100%;
+}
+img {
+	max-width: 100%;
+}
+.banner {
+	
+	&__img{
+		height: 450px;
+		align-items: center;
+		@include max-sm{
+			height: 250px;
+		}
+	}
+}
+
+.person-evol {
+	text-align: center;
+	background-color:  #3ae374;
+	padding: 2rem 0 2rem 0;
+	&__link {
+		text-align: center;
+		font-size: 120%;
+		padding: 0.5rem;
+		border-radius: 4px;
+		background-color: #fff;
+	}
+}
+.person {
+	text-align: center;
+	overflow-y: hidden;
+	position: relative;
+	margin-bottom: 1rem;
+	.card-img-top {
+		height: 250px;
+		overflow-y: hidden;
+		transition: .3s ease-in-out height;
+	}
+	&:hover {
+		.card-img-top{
+			height: 350px;
+		}
+	}
+	.card-title {
+		font-size: 18pt;
+		font-weight: bold;
+		color: #333;
+	}	
+
+}
+.gallery-evol {
+	text-align: center;
+	padding: 2rem 0 2rem 0;
+}
+.list-image {
+	width: 160px;
+	height: 160px;
+	margin: 0 0rem 1rem 0rem;
+
+	@media (max-width: 992px) {
+		height: 110px;
+	}
+	@media (max-width: 576px) {
+		width: 100%;
+		height: 100%!important;
+	}
+	img {
+		height: 100%;
+		@media (max-width: 576px) {
+		width: 100%;
+		height: 100%;
+		}
+	}
+}
+.grid-list {
+	margin-bottom: 2rem;
+}
+.link-instagram {
+	text-align: center;
+	font-size: 120%;
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+

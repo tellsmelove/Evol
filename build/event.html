@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/contents/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/contents/css/font-awesome.css">
+    <link rel="stylesheet" href="./public/contents/css/swiper.min.css">
+    <link rel="stylesheet" href="./public/contents/css/app.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <header id="header">    
+            <div class="container">
+  <div class="header row align-items-center">
+    <nav class="navbar navbar-expand-lg navbar-light d-flex">
+  <div class="col-md-10 col-9 col-lg-2">
+    <a class="navbar-brand" href="#"><img width="61" src="./public/contents/images/logoevols.png"></a>
+
+  </div>
+  <div class="col-md-2 col-3 col-lg-10">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-style">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Về Evol
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Tầm nhìn</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Lời nhắn nhủ từ người sáng lập</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Evol farm</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Evol làm gi ?
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Blog - Tin Tức</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Evol farm tour</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sản Phẩm
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Các sản phẩm từ xơ mướp của Evol</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Các sản phẩm rau/củ của Evol</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Tình Nguyện Viên
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Thông tin chung</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Bạn sẽ làm gì ?</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Quy định tại Evol cho TNV</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Đóng góp</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sự Kiện</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Liên Hệ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+</nav>
+  </div>
+</div>
+        </header>
+        <main>
+            
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb breadcrumb-style">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Event</li>
+    </ol>
+  </nav>
+  <div class="row">
+    <div class="co-md-1 comingsoon">
+      <span>Coming Soon</span>
+    </div>
+  </div>
+</div>
+
+        </main>
+        <footer>
+            <div class="row-footer">
+  <div class="container">
+    <ul class="social-icon animate pull-right">
+      <li><a href="#" title="facebook" target="_blank" class="social-icon__facebook"><i class="fa fa-facebook"></i></a></li>
+      <!-- change the link to social page and edit title-->
+      <li><a href="#" title="twitter" target="_blank" class="social-icon__twitter"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#" title="google plus" target="_blank" class="social-icon__google"><i class="fa fa-google-plus"></i></a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+        </footer>
+        <div class="overlay" v-on:click="menu_active = !menu_active" v-if="menu_active"></div>
+    </div>
+    <script src="./public/contents/js/jquery-3.3.1.min.js"></script>
+    <script src="./public/contents/js/popper.min.js"></script>
+    <script src="./public/contents/js/bootstrap.min.js"></script>
+    <script src="./public/contents/js/swiper.min.js"></script>
+    <script src="./public/contents/js/vue.js"></script>
+    <script src="./public/contents/js/app.js"></script>
+    <script src="./public/contents/js/swiperproduct.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+{% extends './layout/layout.html' %}
+{% block content %}
+<div class="container py-md-3 py-2">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb breadcrumb-style">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Blog</li>
+    </ol>
+  </nav>
+  <ul class="listMenu">
+    <li class="row list-item">
+      <div class="col-md-8 order-1">
+        <a href="#">
+          <h3 class="">Tầm nhìn</h3>
+        </a>
+        <span class="Categories">Đời sống</span><span class="time-post"> 10:00 20/2/2019</span>
+        <p class="content-article">Với mong muốn đem lại môi trường giáo dục lối sống xanh cho giới trẻ, nhà sáng lập
+          và các tình nguyện viên của tổ chức
+          sẽ phấn đấu từng ngày để xây dựng một EVOL ngày càng lớn mạnh hơn trong việc giáo dục vì cộng đồng.
+          Trở thành tổ chức uy tín nhất trong xã hội tại khu vực hoạt động phía Nam nói riêng và trên toàn thế giới nói
+          chung.
+          Nâng cao ý thức người dân về môi trường và hình thành lối sống văn minh, sạch đẹp hơn cho những nơi mà EVOL
+          đến.</p>
+        <a href="#" class="link-article">Xem thêm</a>
+      </div>
+      <div class="col-md-4 ">
+        <a href="#" class="news-thumb"><img src="{{img_path}}/liveee.jpg" width="500" class="about-evol__img"></a>
+      </div>
+    </li>
+    <li class="row list-item">
+      <div class="col-md-8 order-1">
+        <a href="#">
+          <h3>Title Article</h3>
+        </a>
+        <span class="Categories">Du lịch</span><span class="time-post"> 10:00 20/2/2019</span>
+        <p class="content-article">The exhibition will illustrate how life evolved from water.
+          Each manager has left his or her own stamp on the way the company has evolved.
+          The universe evolved from a densely packed primal inferno.
+          Most languages are constantly evolving and changing, which is what keeps them alive.
+          These animals have evolved all the necessary qualities to help them catch their prey.</p>
+        <a href="#" class="link-article">Xem thêm</a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="news-thumb"><img src="https://png.pngtree.com/thumb_back/fw800/20160811/pngtree-vegetables-background-photo-683934.jpg"
+            class="about-evol__img"></a>
+      </div>
+    </li>
+    <li class="row list-item">
+      <div class="col-md-8 order-1">
+        <a href="#">
+          <h3>Title Article</h3>
+        </a>
+        <span class="Categories">Du lịch</span><span class="time-post"> 10:00 20/2/2019</span>
+        <p class="content-article">The exhibition will illustrate how life evolved from water.
+          Each manager has left his or her own stamp on the way the company has evolved.
+          The universe evolved from a densely packed primal inferno.
+          Most languages are constantly evolving and changing, which is what keeps them alive.
+          These animals have evolved all the necessary qualities to help them catch their prey.</p>
+        <a href="#" class="link-article">Xem thêm</a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="news-thumb"><img src="https://png.pngtree.com/thumb_back/fw800/20160811/pngtree-vegetables-background-photo-683934.jpg"
+            class="about-evol__img"></a>
+      </div>
+    </li>
+    <li class="row list-item">
+      <div class="col-md-8 order-1">
+        <a href="#">
+          <h3>Title Article</h3>
+        </a>
+        <span class="Categories">Du lịch</span><span class="time-post"> 10:00 20/2/2019</span>
+        <p class="content-article">The exhibition will illustrate how life evolved from water.
+          Each manager has left his or her own stamp on the way the company has evolved.
+          The universe evolved from a densely packed primal inferno.
+          Most languages are constantly evolving and changing, which is what keeps them alive.
+          These animals have evolved all the necessary qualities to help them catch their prey.</p>
+        <a href="#" class="link-article">Xem thêm</a>
+      </div>
+      <div class="col-md-4">
+        <a href="#" class="news-thumb"><img src="https://png.pngtree.com/thumb_back/fw800/20160811/pngtree-vegetables-background-photo-683934.jpg"
+            class="about-evol__img"></a>
+      </div>
+    </li>
+  </ul>
+  {% include "./common/pagi.html" %}
+</div>
+{% endblock %}

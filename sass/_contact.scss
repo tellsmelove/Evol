@@ -1,0 +1,9 @@
+.btn-style {
+  text-align: center;
+}
+.contact-style {
+  font-size: 120%;
+  &__link {
+    border-bottom: 1px solid currentColor;
+  }
+}

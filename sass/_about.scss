@@ -1,0 +1,59 @@
+.about-evol {
+  height: 100%!important;
+  background-color: #fff;
+  padding: 2rem 0 3rem 0;
+}
+.title-about {
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+.title-content {
+	font-size: 2rem;
+  text-align: center;
+  color: #000;
+  margin: 0 0 2rem 0;
+}
+
+.about-evol {
+	@media (max-width: 768px) {
+		text-align: center;
+	}
+	&__txt {
+    background-color: rgba(#107686, .8);
+    padding: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 5px 5px 5px #666;
+    transition: all .5s ease-in-out;
+    // animation: change-bg 10s ease-in-out infinite;
+    &:hover {
+      background-color: #107686;
+    }
+		@media (max-width: 768px) {
+      text-align: justify;
+		}
+	}
+	&__link {
+      background-color: #107686;
+      color: #fff;
+      padding: 0.5rem;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px #666;
+	}
+}
+.article {
+  margin-bottom: 2rem;
+}
+
+// @keyframes change-bg{
+//   0%{
+//     background-color: red;
+//   }
+//   50%{
+//     background: green;
+//   }
+//   100%{
+//     background: blue;
+//   }
+// }
