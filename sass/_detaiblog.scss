@@ -1,7 +1,7 @@
 .article-blog {
   text-align: center;
   border-bottom: 1px solid currentColor;
-  p, h4, {
+  p, h1, h3, h4, h6 {
     text-align: left;
   }
   h5 {
@@ -10,4 +10,10 @@
 }
 .another-article {
   text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.Categories {
+  text-align: left;
 }

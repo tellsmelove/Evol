@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -109,7 +109,7 @@
         <li class="breadcrumb-item active" aria-current="page">Product</li>
       </ol>
     </nav>
-    <h1>Các sản phẩm rau củ quả</h1>
+    <h1 class="text-light">Các sản phẩm rau củ quả</h1>
     <ul class="row item-pr listMenu">
       <li class="card col-md-3 products">
         <a href="#"><img class="card-img-top" src="https://cdn.explus.vn/media.giadinhvietnam.com/files/phuongvu276/2018/10/23/rau-1045.jpg"
@@ -199,17 +199,72 @@
         </main>
         <footer>
             <div class="row-footer">
-  <div class="container">
-    <ul class="social-icon animate pull-right">
-      <li><a href="#" title="facebook" target="_blank" class="social-icon__facebook"><i class="fa fa-facebook"></i></a></li>
-      <!-- change the link to social page and edit title-->
-      <li><a href="#" title="twitter" target="_blank" class="social-icon__twitter"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="#" title="google plus" target="_blank" class="social-icon__google"><i class="fa fa-google-plus"></i></a></li>
-    </ul>
+  <div class="footer-top text-light">
+    <div class="container">
+      <div class="row pt-3 pb-2">
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-12">
+              <img width="61" src="./public/contents/images/logoevols.png" alt="">
+              <span class="font-weight-bold">Evol</span>
+            </div>
+            <div class="col-12">
+              <p class="font-weight-bold">Raising awareness of people in the urban area about food waste, plastic
+                waste.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="col">
+            <span class="font-weight-bold">About us:</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col">
+            <span class="font-weight-bold">Fanpage:</span>
+          </div>
+          <div class="fb-page" data-href="https://www.facebook.com/evolvietnamorg/" data-tabs="timeline" data-width="300"
+            data-height="260" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/evolvietnamorg/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/evolvietnamorg/">Evol
+                Vietnam</a></blockquote>
+          </div>
+        </div>
+        <div class="col-md-3 ml-0">
+          <div class="col">
+            <span class="font-weight-bold">Website hợp tác:</span>
+          </div>
+          <div class="col">
+            <a href="Cayxanh.com">Cayxanh.com</a>
+          </div>
+          <div class="col">
+            <a href="Vuonrau.com">Vuonrau.com</a>
+          </div>
+          <div class="col">
+            <a href="thuoctrusau.com">thuoctrusau.com</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  <div class="bg-success">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-light">
+          &copy; Copyright 2019 Evol VietNam
+        </div>
+        <div class="col-md-6 col-sm-12 ">
+          <ul class="social-icon animate social-icons">
+            <li><a href="#" title="facebook" target="_blank" class="social-icon__facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" title="twitter" target="_blank" class="social-icon__twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" title="google plus" target="_blank" class="social-icon__google"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
+</div>
         </footer>
         <div class="overlay" v-on:click="menu_active = !menu_active" v-if="menu_active"></div>
     </div>
@@ -220,6 +275,8 @@
     <script src="./public/contents/js/vue.js"></script>
     <script src="./public/contents/js/app.js"></script>
     <script src="./public/contents/js/swiperproduct.js"></script>
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=2046573405635669&autoLogAppEvents=1"></script>
     
 </body>
 

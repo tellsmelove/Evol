@@ -3,9 +3,9 @@ footer {
     bottom: 0;
     position: relative;
     left: 0;
-    height: 45px;
-    background-color: #388E3C;
-    padding-bottom: 1rem;
+}
+.footer-top {
+  background-color: #485460;
 }
 .social-icon {
   list-style: none;
@@ -43,4 +43,11 @@ footer {
 .social-icon a:hover {
   background: #4FC3F7; 
   color: #fff; 
+}
+.social-icons {
+  float: right;
+  @include max-sm {
+    float: none;
+    text-align: center;
+  }
 }

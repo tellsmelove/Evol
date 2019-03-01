@@ -323,7 +323,7 @@ $nocolor: transparent;
     }
 }
 
-@mixin max-md($max-w: 768px) {
+@mixin max-md($max-w: 769px) {
     @media screen and (max-width: $max-w) {
         @content;
     }

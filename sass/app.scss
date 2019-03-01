@@ -31,14 +31,18 @@ img {
 
 .person-evol {
 	text-align: center;
-	background-color:  #3ae374;
+	background-color:  #10ac84;
 	padding: 2rem 0 2rem 0;
 	&__link {
 		text-align: center;
 		font-size: 120%;
 		padding: 0.5rem;
 		border-radius: 4px;
-		background-color: #fff;
+		background-color: rgba(19, 253, 255, .8);
+		box-shadow: 3px 3px 3px #666;
+		&:hover {
+			background-color: #fff;
+		}
 	}
 }
 .person {
@@ -50,6 +54,7 @@ img {
 		height: 250px;
 		overflow-y: hidden;
 		transition: .3s ease-in-out height;
+		margin-top: 1rem;
 	}
 	&:hover {
 		.card-img-top{
@@ -95,5 +100,6 @@ img {
 	font-size: 120%;
 	padding: 0.5rem;
 	border-radius: 4px;
+	box-shadow: 3px 3px 3px #666;
 }
 
